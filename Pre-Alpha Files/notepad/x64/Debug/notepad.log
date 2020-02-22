@@ -1,0 +1,11 @@
+﻿  moc_notepad.cpp
+  main.cpp
+  notepad.cpp
+notepad.cpp(57): error C2275: 'QTextStream': illegal use of this type as an expression
+  c:\qt\qt5.6.2\5.6\msvc2015_64\include\qtgui\qtextdocumentfragment.h(42): note: see declaration of 'QTextStream'
+notepad.cpp(57): error C2146: syntax error: missing ')' before identifier 'out'
+notepad.cpp(58): error C2065: 'out': undeclared identifier
+notepad.cpp(58): error C2143: syntax error: missing ')' before ';'
+notepad.cpp(58): error C2143: syntax error: missing ';' before ')'
+notepad.cpp(58): error C2059: syntax error: ')'
+notepad.cpp(62): fatal error C1903: unable to recover from previous error(s); stopping compilation
